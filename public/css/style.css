@@ -1,0 +1,7 @@
+h1 {
+  color: rgb(210, 207, 207);
+}
+
+#img-tomas {
+  clip-path: circle(40% at 50% 60%);
+}
