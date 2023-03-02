@@ -11,18 +11,18 @@
         type="image/x-icon">
     <link rel="stylesheet" href="./public/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="./public/css/style.css">
+
 </head>
 
-<body style="background-color: #121b33">
+<body>
 
     <!-- --- Navbar ---    -->
 
     <nav class="navbar navbar-expand-lg navbar-dark rounded-1" style="background-color: #335076">
 
         <div class="container-fluid">
-            <div class="">
-                <a class="navbar-brand nav-link ms-1" href="#">Tomas Mendoza</a>
-            </div>
+
+            <a class="navbar-brand nav-link ms-1 text-decoration-underline" href="#">Tomas Mendoza</a>
 
             <div class="ms-auto">
                 <ul class="navbar-nav me-auto">
@@ -60,13 +60,57 @@
     <!-- ------------------- -->
 
     <!-- --- Contenido de la pagina --- -->
-    <div class="d-flex justify-content-center align-items-center">
+    <div class="d-flex justify-content-center align-items-center mb-5">
         <img src="./public/img/IMG_20220604_224615_352.jpg" width="500px" id="img-tomas">
         <h1>hi, i'm Tomas Developer full stack</h1>
     </div>
 
 
     <!-- ------------------------------ -->
+
+    <!-- --- Contact de la pagina --- -->
+
+    <section class="container-fluid" style="background-color: #335076">
+        <div class="row">
+            <div class="col-7 p-5">
+                <h1>Si quieres contactarme, puedes enviarme un mensaje por algunas de estas vias de comunicacion</h1>
+                <div class="iconos-contact mb-3">
+                    <a href="" class="link-light">Gmail</a>
+                    <a href="" class="link-light">Github</a>
+                    <a href="" class="link-light">Likedin</a>
+                </div>
+                <form>
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control rounded-5" id="floatingInput"
+                            placeholder="name@example.com">
+                        <label for="floatingInput">Nombre</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control rounded-5" id="floatingInput"
+                            placeholder="test@gmail.com">
+                        <label for="floatingInput">Email</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <textarea class="form-control rounded-4" placeholder="Deja tu mensaje" id="mensaje"
+                            style="height: 200px"></textarea>
+                        <label for="mensaje">Deja tu mensaje</label>
+                    </div>
+                    <div class="d-flex justify-content-center mb-3">
+                        <button class="btn btn-secondary rounded-5" type="submit">Enviar</button>
+                    </div>
+                </form>
+                <footer class="text-center">
+                    <p class="text-light">Copyright 2022 . All right reserved</p>
+                </footer>
+            </div>
+            <div class="col-5 g-0 img-contact img-fluid">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- --------------------------- -->
+
 
 </body>
 

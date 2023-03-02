@@ -1,7 +1,22 @@
+body {
+  background-color: #121b33;
+}
+
 h1 {
   color: rgb(210, 207, 207);
 }
 
 #img-tomas {
   clip-path: circle(40% at 50% 60%);
+}
+
+.img-contact {
+  background-image: url(../img/pattern_japanese-pattern-2_1.5_2_0-0_0_1__131c35_325076.png);
+  animation: animacion 6s infinite alternate linear;
+}
+
+@keyframes animacion {
+  100% {
+    background-position: 15% 50%;
+  }
 }
